@@ -2,7 +2,7 @@
 # python classify_image.py --image images/boat.png
 
 # import the necessary packages
-from pyimagesearch import config
+from config import config
 from torchvision import models
 import numpy as np
 import argparse
