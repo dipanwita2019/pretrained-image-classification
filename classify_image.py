@@ -7,7 +7,7 @@ from torchvision import models
 import numpy as np
 import argparse
 import torch
-import cv2
+import cv2 # pip3 install opencv-python==3.4.13.47
 
 def preprocess_image(image):
 	# swap the color channels from BGR to RGB, resize it, and scale
